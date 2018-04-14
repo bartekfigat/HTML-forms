@@ -29,6 +29,25 @@
         <legend><span class="number">2</span>Your Message</legend>
     <label for="bio">Message</label>
     <textarea name="user_bio" id="bio" cols="30" rows="10"></textarea>
+
+    <label for="job">Job role:</label>
+    <select name="user_job" id="job">
+        <optgroup label="Web">
+            <option value="frontEndDeveloper">Front-End Developer</option>
+            <option value="PhPDeveloper">PHP Developer</option>
+            <option value="NodejsDeveloper">Node.js Developer</option>
+        </optgroup>
+
+        <optgroup label="Mobile">
+            <option value="railsDeveloper">Rails Developer</option>
+            <option value="mobiledesigner">Mobile Designer</option>
+            <option value="mobile-android">Mobile Android</option>
+        </optgroup>
+
+        <optgroup label="Bussines">
+            <option value="bussines">Bussines</option>
+        </optgroup>
+    </select>
 </fieldset> 
 
     <button type="submit">Sing up</button>
